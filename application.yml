@@ -24,17 +24,11 @@ lavalink:
 
 metrics:
   prometheus:
-    enabled: false
+    enabled: true
     endpoint: /metrics
 
 sentry:
   dsn: ""
-
-logging:
-  file:
-    max-history: 1
-    max-size: 3MB
-  path: /app/logs/
 
   level:
     root: INFO
